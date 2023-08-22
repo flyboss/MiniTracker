@@ -1,0 +1,59 @@
+# Generated output
+dist/
+out/
+output.txt
+# JavaScript files transpiled from TypeScript
+src/*.js
+
+# json and dot files
+test/**/*.js.json
+test/**/*.ast.json
+test/**/*.cfg.json
+test/**/*.dot
+
+# WebStorm IDE
+.idea/
+
+# Node modules
+node_modules/
+
+# WX and MY API documents
+resources/APIDocuments/MYRawAPI
+resources/APIDocuments/WXRawAPI
+resources/APIDocuments/BaiduRawAPI
+
+# vscode
+.vscode/
+
+# mini app
+mini app/**/*.dot
+mini app/**/*.js.json
+mini app/**/*.ast.json
+mini app/**/*.cfg.json
+mini app/
+
+# bench
+MiniProgramBench/**/*.dot
+MiniProgramBench/**/*.js.json
+MiniProgramBench/**/*.ast.json
+MiniProgramBench/**/*.cfg.json
+MiniProgramBench/**/*-traverse.js
+MiniProgramBench/**/*-wxmlInfo.json
+MiniProgramBench/**/*-globalDataFlows.json
+MiniProgramBench/**(result)
+
+# experiment directories
+mini app/baidu-mini-program
+mini app/baidu-mini-program.csv
+mini app
+
+# temp file
+*-htmlInfo.json
+*-traverse.js
+*-globalDataFlows.json
+
+#log
+log.log
+logs/
+
+test.ts

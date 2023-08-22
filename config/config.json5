@@ -1,0 +1,65 @@
+{
+  "root_dir": "",
+
+  "verbose_level": 1,
+  "ignore_warnings": false,
+  "strict_matching": true,
+
+  "enable_implicit_flow": false,
+
+  "keep_intermediate_data_to_file": false,
+
+  "platform": "",
+  "api_prefix": "",
+  "html_suffix": "",
+  "input_events": [],
+  "sources_and_sinks_path": "",
+
+
+  "baidu_config": {
+    "api_prefix": "swan.",
+    "html_suffix": ".swan",
+    "input_events": ["bindinput", "bindfocus", "bindblur", "bindconfirm"],
+    "sources_and_sinks_path": "./config/BaiduSourcesAndSinks.json"
+  },
+  "wechat_config": {
+    "api_prefix": "wx.",
+    "html_suffix": ".wxml",
+    "input_events": ["bindinput", "bindfocus", "bindblur", "bindconfirm"],
+    "sources_and_sinks_path": "./config/WeChatSourcesAndSinks.json"
+  },
+
+  "keywords": [
+        "手机",
+        "号码",
+        "身份证",
+        "密码",
+        "生日",
+        "出生日期",
+        "出生年月",
+        "姓名",
+        "年龄",
+        "门牌",
+        "地址",
+        "省",
+        "市",
+        "名称",
+        "余额",
+        "价格",
+        "password",
+        "phone",
+        "ID",
+        "昵称",
+        "头像",
+        "位置",
+        "住址",
+        "QQ",
+        "邮箱",
+        "email",
+        "Email",
+        "好友",
+        "银行",
+        "账户",
+        "账号"
+    ]
+}

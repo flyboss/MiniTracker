@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "outDir": "../out/",
+    "sourceMap": true,
+    "lib": [
+      "dom","es5","es6"
+    ]
+  },
+  "exclude": [
+    "../node_modules"
+  ]
+}

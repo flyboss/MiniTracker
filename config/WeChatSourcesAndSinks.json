@@ -1,0 +1,187 @@
+{
+    "sources": [
+        "wx.getUserInfo",
+        "wx.onChange",
+
+        "wx.getSystemInfoSync",
+        "wx.getSystemInfoAsync",
+        "wx.getSystemInfo",
+
+        "wx.getLaunchOptionsSync",
+        "wx.getEnterOptionsSync",
+
+        "Animation.export",
+        "wx.downloadFile",
+
+
+        "wx.getBackgroundFetchToken",
+        "wx.getBackgroundFetchData",
+
+        "wx.createMapContext.getCenterLocation",
+        "wx.createMapContext.fromScreenLocation",
+        "wx.createMapContext.getRegion",
+
+        "wx.getStorageSync",
+        "wx.getStorageInfoSync",
+        "wx.getStorageInfo",
+        "wx.getStorage",
+
+        "wx.getImageInfo",
+        "wx.compressImage",
+        "wx.chooseImage",
+        "wx.chooseMessageFile",
+
+        "wx.getVideoInfo",
+        "wx.compressVideo",
+        "wx.chooseVideo",
+        "wx.chooseMedia",
+
+        "wx.getAvailableAudioSources",
+        "wx.getBackgroundAudioPlayerState",
+
+
+        "wx.createLivePlayerContext.snapshot",
+
+        "wx.startRecord",
+
+        "wx.createCameraContext.startRecord",
+        "wx.createCameraContext.takePhoto",
+
+        "wx.createSelectorQuery.getContents",
+        "wx.createSelectorQuery.getSelectionText",
+        "MediaContainer.export",
+
+        "wx.startLocationUpdateBackground",
+        "wx.getLocation",
+
+        "wx.getShareInfo",
+
+        "Canvas.toDataURL",
+
+        "wx.getSavedFileList",
+        "wx.getSavedFileInfo",
+        "wx.getFileInfo",
+        "wx.getFileSystemManager.fstat",
+        "wx.getFileSystemManager.fstatSync",
+        "wx.getFileSystemManager.getFileInfo",
+        "wx.getFileSystemManager.getSavedFileList",
+        "wx.getFileSystemManager.read",
+        "wx.getFileSystemManager.readdir",
+        "wx.getFileSystemManager.readdirSync",
+        "wx.getFileSystemManager.readFile",
+        "wx.getFileSystemManager.readFileSync",
+        "wx.getFileSystemManager.readSync",
+
+        "wx.login",
+        "wx.getAccountInfoSync",
+        "wx.getUserProfile",
+        "wx.getUserInfo",
+        "wx.getExptInfoSync",
+        "wx.openSetting",
+        "wx.getSetting",
+        "wx.chooseAddress",
+        "wx.openCard",
+        "wx.chooseInvoiceTitle",
+        "wx.chooseInvoice",
+        "wx.getWeRunData",
+        "wx.getGroupEnterInfo",
+
+        "wx.getBeacons",
+        "wx.getHCEState",
+        "IsoDep.getHistoricalBytes",
+        "NfcA.getAtqa",
+        "NfcA.getSak",
+        "wx.getWifiList",
+        "wx.getConnectedWifi",
+        "wx.searchContacts",
+        "wx.chooseContact",
+        "wx.readBLECharacteristicValue",
+        "wx.getBLEDeviceServices",
+        "wx.getBLEDeviceRSSI",
+        "wx.getBLEDeviceCharacteristics",
+        "wx.getBatteryInfoSync",
+        "wx.getBatteryInfo",
+        "wx.getClipboardData",
+        "wx.getNetworkType",
+
+        "wx.getExtConfigSync",
+        "wx.getExtConfig",
+        "NodesRef.fields",
+        "NodesRef.scrollOffset",
+
+        "wx.input"
+    ],
+    "sinks": [
+        "wx.request",
+        "wx.getRealtimeLogManager.error",
+        "wx.getRealtimeLogManager.info",
+        "wx.getRealtimeLogManager.warn",
+        "RealtimeTagLogManager.error",
+        "RealtimeTagLogManager.info",
+        "RealtimeTagLogManager.warn",
+
+        "wx.uploadFile",
+        "wx.sendSocketMessage",
+        "wx.connectSocket",
+        "SocketTask.send",
+
+        "wx.setStorageSync",
+        "wx.setStorage",
+        "wx.removeStorageSync",
+        "wx.removeStorage",
+        "wx.clearStorageSync",
+        "wx.clearStorage",
+
+        "wx.saveImageToPhotosAlbum",
+        "wx.saveVideoToPhotosAlbum",
+
+        "wx.createLivePusherContext.sendMessage",
+
+        "wx.createSelectorQuery.clear",
+        "wx.createSelectorQuery.insertImage",
+        "wx.createSelectorQuery.insertText",
+        "wx.createSelectorQuery.redo",
+        "wx.createSelectorQuery.setContents",
+        "wx.createSelectorQuery.undo",
+
+        "wx.saveFileToDisk",
+        "wx.saveFile",
+        "wx.removeSavedFile",
+        "wx.getFileSystemManager.appendFile",
+        "wx.getFileSystemManager.appendFileSync",
+        "wx.getFileSystemManager.copyFile",
+        "wx.getFileSystemManager.copyFileSync",
+        "wx.getFileSystemManager.removeSavedFile",
+        "wx.getFileSystemManager.rmdir",
+        "wx.getFileSystemManager.rmdirSync",
+        "wx.getFileSystemManager.saveFile",
+        "wx.getFileSystemManager.saveFileSync",
+        "wx.getFileSystemManager.unlink",
+        "wx.getFileSystemManager.unlinkSync",
+        "wx.getFileSystemManager.write",
+        "wx.getFileSystemManager.writeFile",
+        "wx.getFileSystemManager.writeFileSync",
+        "wx.getFileSystemManager.writeSync",
+
+        "wx.requestPayment",
+        "wx.requestOrderPayment",
+        "wx.authorizeForMiniProgram",
+        "wx.authorize",
+        "wx.shareToWeRun",
+        "wx.requestSubscribeMessage",
+
+        "BLEPeripheralServer.writeCharacteristicValue",
+        "wx.sendHCEMessage",
+        "IsoDep.transceive",
+        "MifareClassic.transceive",
+        "NfcA.transceive",
+        "NfcB.transceive",
+        "NfcF.transceive",
+        "NfcV.transceive",
+        "wx.addPhoneContact",
+        "wx.writeBLECharacteristicValue",
+        "wx.setClipboardData",
+
+        "Worker.postMessage"
+    ]
+}
