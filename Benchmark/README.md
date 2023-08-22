@@ -2,7 +2,7 @@
 
 This is an open test suite for evaluating the effectiveness of privacy leakages detection tools specifically for mini programs. The suite can be used to assess both static and dynamic taint analyses, but in particular it contains test cases for interesting static-analysis problems for the mini program specific challenges like correctly modeling mini program's pages, handling util files and adequately processing asynchronous data flows.
 
-[link](https://drive.google.com/file/d/1ZBOk_3Hb4BpKtj1nfcrtA-jIOkqUIY7g/view?usp=drive_link)
+The test cases can be found in [Google Drive](https://drive.google.com/file/d/1ZBOk_3Hb4BpKtj1nfcrtA-jIOkqUIY7g/view?usp=drive_link).
 ## Basic
 
 * **General1** Sync function positive leakage.
