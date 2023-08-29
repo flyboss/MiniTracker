@@ -1,29 +1,36 @@
 {
   "sources": [
-    "swan.getUserInfo",
+    "swan.getConnectedWifi",
     "swan.getSystemInfoSync",
     "swan.getSystemInfo",
-    "swan.downloadFile",
-
-    "MapContext.getCenterLocation",
-    "MapContext.getRegion",
-    "swan.createMapContext",
-
-    "swan.getImageInfo",
-    "swan.chooseImage",
-    "swan.compressImage",
-    "swan.chooseVideo",
-    "swan.getAvailableAudioSources",
+    "swan.getBatteryInfoSync",
+    "swan.getBatteryInfo",
+    "swan.getClipboardData",
+    "swan.getNetworkType",
+    "swan.getScreenBrightness",
+    "swan.getWifiList",
     "swan.getStorageSync",
     "swan.getStorageInfoSync",
     "swan.getStorageInfo",
     "swan.getStorage",
 
+    "MapContext.getCenterLocation",
+    "MapContext.getRegion",
+    "swan.createMapContext",
+    "swan.getLocation",
+    "swan.chooseLocation",
+    "swan.openLocation",
+
+    "swan.chooseImage",
+    "swan.compressImage",
+    "swan.getImageInfo",
+    "swan.chooseVideo",
+    "NodesRef.fields",
+    "NodesRef.scrollOffset",
+    "swan.downloadFile",
     "CameraContext.startRecord",
     "CameraContext.takePhoto",
     "swan.createCameraContext",
-
-    "swan.getLocation",
     "swan.getSavedFileList",
     "swan.getSavedFileInfo",
     "swan.getFileInfo",
@@ -33,19 +40,16 @@
     "swan.getFileSystemManager.readdirSync",
     "swan.getFileSystemManager.readFile",
     "swan.getFileSystemManager.readFileSync",
-    "swan.openSetting",
-    "swan.getSetting",
-    "swan.chooseAddress",
-    "swan.chooseInvoiceTitle",
-    "swan.getBatteryInfoSync",
-    "swan.getBatteryInfo",
-    "swan.getClipboardData",
-    "swan.getNetworkType",
+
+    "swan.getPhoneNumber",
+    "swan.getSwanId",
+    "swan.getFavorStatus",
     "swan.getExtConfigSync",
     "swan.getExtConfig",
-
-    "NodesRef.fields",
-    "NodesRef.scrollOffset",
+    "swan.chooseInvoiceTitle",
+    "swan.chooseAddress",
+    "swan.getLoginCode",
+    "swan.getUserInfo",
 
     "swan.input"
   ],
@@ -54,7 +58,6 @@
     "swan.uploadFile",
     "swan.sendSocketMessage",
     "swan.connectSocket",
-
     "SocketTask.send",
 
     "swan.setStorageSync",
@@ -63,13 +66,12 @@
     "swan.removeStorage",
     "swan.clearStorageSync",
     "swan.clearStorage",
-    "swan.saveImageToPhotosAlbum",
+
     "swan.saveVideoToPhotosAlbum",
-    "swan.saveFile",
-    "swan.removeSavedFile",
+    "swan.saveImageToPhotosAlbum",
     "swan.getFileSystemManager.appendFile",
     "swan.getFileSystemManager.appendFileSync",
-    "swan.getFileSystemManager.copyFile",
+    "swan.getFileSystemManager.copeFile",
     "swan.getFileSystemManager.copyFileSync",
     "swan.getFileSystemManager.removeSavedFile",
     "swan.getFileSystemManager.rmdir",
@@ -80,8 +82,16 @@
     "swan.getFileSystemManager.unlinkSync",
     "swan.getFileSystemManager.writeFile",
     "swan.getFileSystemManager.writeFileSync",
+    "swan.removeSavedFile",
+    "swan.saveFile",
+    "swan.setClipboardData",
+
+    "swan.shareFile",
     "swan.authorize",
-    "swan.addPhoneContact",
-    "swan.setClipboardData"
+    "swan.reportAnalytics",
+    "swan.requestPolymerPayment",
+
+    "swan.makePhoneCall",
+    "swan.addPhoneContact"
   ]
 }

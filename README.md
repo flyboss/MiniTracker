@@ -78,6 +78,10 @@ Potential data leak in \page1\page1.
                  At assignment temp11 = wx.request(temp10) in $$func3
 ```
 
+## Config
+- [config.json5](config/config.json5) defines the config options.
+- The configuration about sources and sinks is a JSON formatted file, which includes two fields: sources and sinks. You can configure it as needed. For examples, please refer to [WeChatSourcesAndSinks.json](config/WeChatSourcesAndSinks.json) and [BaiduSourcesAndSinks.json](config/BaiduSourcesAndSinks.json).
+
 # Benchmark
 Please see Benchmark folder.
 
